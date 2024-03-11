@@ -9,6 +9,7 @@
     gap: 1rem;
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .search p{

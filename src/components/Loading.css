@@ -1,0 +1,8 @@
+.loading-overlay{
+    position: absolute;
+    bottom: -10rem;
+    color: white;
+    background-color: #2b3566;
+    padding: 1rem;
+    border-radius: 5px;
+}

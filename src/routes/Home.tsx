@@ -27,16 +27,17 @@ const Home = () => {
             return;
         }
 
-        // console.log(data)
+        console.log(data)
 
-        const {avatar_url, login, location, followers, following} = data
+        const {avatar_url, login, location, followers, following, public_repos} = data
         
         const userData: UserProps = {
             avatar_url,
             login,
             location,
             followers,
-            following
+            following,
+            public_repos
         };
 
         setUser(userData);
